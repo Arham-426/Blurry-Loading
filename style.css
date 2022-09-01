@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,300;0,400;1,300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu'sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.bg {
+    background-image: url(./photo-1611651338412-8403fa6e3599.jfif);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
